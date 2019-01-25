@@ -14,10 +14,10 @@ if __name__ == '__main__':
 
 	#### CONFIGURE THE PARAMETERS BELOW ####
 	n = 3 # number of total waypoints desired
-	corner_pts = ([33.44481,-118.48498],[33.44443,-118.48435],[33.44469,-118.48413],[33.44507,-118.48474]) # Reshape coordinates
+	corner_pts = ([33.44481,-118.48498],[33.44443,-118.48435],[33.44469,-118.48413],[33.44507,-118.48474]) # Coordinates of bounding region
 	########################################
 
-	i = 1
+	i = 1	# counter for number of waypoints visited
 	r = rospy.Rate(10)	 # frequency 
 	polygon = Polygon(corner_pts) # create polygon
 	
@@ -42,7 +42,6 @@ if __name__ == '__main__':
 
 				point = Point(latitude,longitude) # create point
 
-				# print(polygon.contains(point)) # check if polygon contains point
 				if point.within(polygon): # check if a point is in the polygon 
 					out = go_to(latitude, longitude)
 					if out.result == True:
@@ -50,7 +49,7 @@ if __name__ == '__main__':
 						rospy.loginfo(point)
 						i = i + 1
 
-						# sleep until message recieved
+						# sleep until waypoint has been reached
 						try:
 							rospy.wait_for_message('/kf1/waypoint_goto_result', Int8, 500)
 						except:

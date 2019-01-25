@@ -49,5 +49,5 @@
    /tf
    /tf_static
   "/>
- <node pkg="rosbag" type="record" name="rosbag_pa1"  args="-o $(find ps1)/bagfiles/$(arg prefix) $(arg topics)"/>
+ <node pkg="rosbag" type="record" name="rosbag_pa1"  args="-o $(find pa1)/bagfiles/$(arg prefix) $(arg topics)"/>
 </launch>

@@ -4,8 +4,12 @@ Homework 1
 Created three python nodes for ROS: Random Waypoint, Lawnmower Sweep,
 and Expanding Square.
 
-Overleaf link for report: https://www.overleaf.com/read/yfkqhyygcwhb
+Overleaf link to report: https://www.overleaf.com/read/yfkqhyygcwhb
 
+The bagfiles for all tests can be found at the link below:
+
+https://drive.google.com/drive/folders/1OxkBHOT-Hb2OxJMV2XRGGcuJqOcw74yY?usp=sharing
+\#\# Authors
 
 Getting Started
 ---------------
@@ -20,13 +24,13 @@ cloning the repository into a catkin workspace. Execute the command:
 Then, still in the catkin workspace, run:
 
 `>> catkin_make`
-`>> source devel/setup.bash
 
-Once this is complete, you may run:
+Once this is complete the launch files can be executed from anywhere in
+the catkin workspace. Type:
 
-`>>roslaunch pa1 <filename>.launch`
+`>>catkin_ws roslaunch/pa1 <filename>.launch`
 
-The files contained in the launch folder are
+The executable files contained in the launch folder are
 expanding\_square.launch, lawnmower.launch, and
 random\_waypoints.launch.
 
@@ -51,8 +55,7 @@ the opposite corner.
 The boat begins at the center and moves in larger and larger squares
 outward to scan the region.
 
-Authors
--------
+
 
 -   **Jennifer Jain**
 -   **Monika Roznere**

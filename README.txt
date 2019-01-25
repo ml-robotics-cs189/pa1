@@ -15,19 +15,18 @@ This package requires Ubuntu 16.04 or later and Gazebo.
 First set up the package in your environment. This can be done by
 cloning the repository into a catkin workspace. Execute the command:
 
-`git clone https://github.com/Jenn738/cs189.git`
+`git clone https://github.com/ml-robotics-cs189/pa1.git`
 
 Then, still in the catkin workspace, run:
 
 `>> catkin_make`
+`>> source devel/setup.bash
 
-Once this is complete, navigate to:
+Once this is complete, you may run:
 
-`cd catkin_ws/src/ps1/launch` To run a program, type:
+`>>roslaunch pa1 <filename>.launch`
 
-`>>catkin_ws/src/ps1/launch roslaunch <filename>.launch`
-
-The executable files contained in the launch folder are
+The files contained in the launch folder are
 expanding\_square.launch, lawnmower.launch, and
 random\_waypoints.launch.
 

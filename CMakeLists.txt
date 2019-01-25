@@ -9,23 +9,12 @@ project(pa1)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   gps_nav
-  gps_nav.srv
-  math
-  numpy
-  random
   roscpp
   rospy
   sensor_msgs
-  sensor_msgs.msg
-  shapely
-  shapely.geometry
-  shapely.geometry.polygon
   std_msgs
-  std_msgs.msg
   tf
-  tf.transformations
   usv_gazebo_plugins
-  usv_gazebo_plugins.msg
 )
 
 ## System dependencies are found with CMake's conventions
@@ -120,7 +109,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES pa1
-#  CATKIN_DEPENDS gps_nav gps_nav.srv math numpy random roscpp rospy sensor_msgs sensor_msgs.msg shapely shapely.geometry shapely.geometry.polygon std_msgs std_msgs.msg tf tf.transformations usv_gazebo_plugins usv_gazebo_plugins.msg
+#  CATKIN_DEPENDS gps_nav roscpp rospy sensor_msgs std_msgs tf usv_gazebo_plugins
 #  DEPENDS system_lib
 )
 

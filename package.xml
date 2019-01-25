@@ -50,59 +50,26 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>gps_nav</build_depend>
-  <build_depend>gps_nav.srv</build_depend>
-  <build_depend>math</build_depend>
-  <build_depend>numpy</build_depend>
-  <build_depend>random</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
   <build_depend>sensor_msgs</build_depend>
-  <build_depend>sensor_msgs.msg</build_depend>
-  <build_depend>shapely</build_depend>
-  <build_depend>shapely.geometry</build_depend>
-  <build_depend>shapely.geometry.polygon</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_depend>std_msgs.msg</build_depend>
   <build_depend>tf</build_depend>
-  <build_depend>tf.transformations</build_depend>
   <build_depend>usv_gazebo_plugins</build_depend>
-  <build_depend>usv_gazebo_plugins.msg</build_depend>
   <build_export_depend>gps_nav</build_export_depend>
-  <build_export_depend>gps_nav.srv</build_export_depend>
-  <build_export_depend>math</build_export_depend>
-  <build_export_depend>numpy</build_export_depend>
-  <build_export_depend>random</build_export_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
   <build_export_depend>sensor_msgs</build_export_depend>
-  <build_export_depend>sensor_msgs.msg</build_export_depend>
-  <build_export_depend>shapely</build_export_depend>
-  <build_export_depend>shapely.geometry</build_export_depend>
-  <build_export_depend>shapely.geometry.polygon</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
-  <build_export_depend>std_msgs.msg</build_export_depend>
   <build_export_depend>tf</build_export_depend>
-  <build_export_depend>tf.transformations</build_export_depend>
   <build_export_depend>usv_gazebo_plugins</build_export_depend>
-  <build_export_depend>usv_gazebo_plugins.msg</build_export_depend>
   <exec_depend>gps_nav</exec_depend>
-  <exec_depend>gps_nav.srv</exec_depend>
-  <exec_depend>math</exec_depend>
-  <exec_depend>numpy</exec_depend>
-  <exec_depend>random</exec_depend>
   <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
-  <exec_depend>sensor_msgs.msg</exec_depend>
-  <exec_depend>shapely</exec_depend>
-  <exec_depend>shapely.geometry</exec_depend>
-  <exec_depend>shapely.geometry.polygon</exec_depend>
   <exec_depend>std_msgs</exec_depend>
-  <exec_depend>std_msgs.msg</exec_depend>
   <exec_depend>tf</exec_depend>
-  <exec_depend>tf.transformations</exec_depend>
   <exec_depend>usv_gazebo_plugins</exec_depend>
-  <exec_depend>usv_gazebo_plugins.msg</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
